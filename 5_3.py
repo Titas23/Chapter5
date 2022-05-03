@@ -60,6 +60,14 @@ dict2 = {
     "e": "E", 
 }
 
-merged_dict = dict + dict2
+# merged_dict = dict + dict2
 
-print(merged_dict)
+# print(merged_dict)
+
+def main():
+    print("Main running..")
+    d = {}
+    print(d)
+
+    d.update(dict2)
+    print()
